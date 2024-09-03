@@ -2,9 +2,9 @@
   "id": "codes.ferris",
   "title": "Ferris Codes",
   "author": "Cycle Five <cycle.five@proton.me>",
-  "description": "Ferris Codes Website",
+  "description": "Ferris Codes a Website",
   "tagline": "My Code is My Honor",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "healthCheckPath": "/",
   "httpPort": 8080,
   "addons": {

@@ -1,0 +1,11 @@
+# Humans
+
+[We Are People, Not Machines.](https://humanstxt.org)
+
+```txt
+/* TEAM */
+lothrop cycle.five@proton.me github.com/cycle-five
+
+/* THANKS */
+0/0 (aka tazz4843) github.com/tazz4843 (ferris.lgbt)
+```

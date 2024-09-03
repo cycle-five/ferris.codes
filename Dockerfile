@@ -20,6 +20,7 @@ RUN mdbook build
 # Use a small web server to serve the book
 FROM alpine:latest
 
+
 # Install a simple HTTP server
 RUN apk add --no-cache darkhttpd
 
@@ -29,5 +30,7 @@ COPY --from=builder /app/book /book
 # Expose port
 EXPOSE 8080
 
+# We run as a user
+USER nonroot
 # Serve the book
 CMD ["darkhttpd", "/book", "--port", "8080"]
