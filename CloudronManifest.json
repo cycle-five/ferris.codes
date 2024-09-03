@@ -1,0 +1,18 @@
+{
+  "id": "codes.ferris",
+  "title": "Ferris Codes",
+  "author": "Cycle Five <cycle.five@proton.me>",
+  "description": "Ferris Codes Website",
+  "tagline": "My Code is My Honor",
+  "version": "0.0.1",
+  "healthCheckPath": "/",
+  "httpPort": 8080,
+  "addons": {
+    "localstorage": {}
+  },
+  "manifestVersion": 2,
+  "website": "https://ferris.codes",
+  "contactEmail": "cycle.five@proton.me",
+  "icon": "file://src/my-code-is-my-honor.jpeg",
+  "tags": [ "rust", "ferris", "activism", "lgbt" ]
+}
